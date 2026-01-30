@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App name -->
+    <string name="app_name">NASA Image of the Day</string>
+
+    <!-- Navigation Drawer -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_search">Search Images</string>
+    <string name="nav_favorites">My Favorites</string>
+    <string name="nav_about">About</string>
+    <string name="nav_help">Help</string>
+    <string name="nav_other">Other</string>
+    <string name="nav_header_subtitle">Explore the cosmos</string>
+
+    <!-- Activity Titles -->
+    <string name="title_image_search">Image Search</string>
+    <string name="title_favorites">Favorites</string>
+    <string name="title_image_detail">Image Details</string>
+    <string name="title_about">About</string>
+
+    <!-- Main Activity -->
+    <string name="welcome_title">Welcome!</string>
+    <string name="welcome_subtitle">Discover NASA\'s Astronomy Picture of the Day</string>
+    <string name="welcome_message">Welcome to NASA Image of the Day! Start by searching for an image.</string>
+    <string name="got_it">Got it</string>
+    <string name="card_search_title">Search Images</string>
+    <string name="card_search_subtitle">Find images by date</string>
+    <string name="card_favorites_title">My Favorites</string>
+    <string name="card_about_title">About</string>
+    <string name="card_about_subtitle">App information and links</string>
+    <string name="favorites_count_zero">No saved images</string>
+    <string name="favorites_count_format">%d saved images</string>
+    <string name="last_search_format">Last search: %s</string>
+
+    <!-- Search Activity -->
+    <string name="select_date_label">Select a Date</string>
+    <string name="date_hint">YYYY-MM-DD</string>
+    <string name="pick_date">Pick Date</string>
+    <string name="search_button">Search</string>
+    <string name="result_label">Result</string>
+    <string name="tap_image_hint">Tap the image to see full details</string>
+    <string name="error_no_date">Please select a date first</string>
+    <string name="image_loaded">Image loaded successfully!</string>
+    <string name="error_loading_image">Error loading image: %s</string>
+
+    <!-- Favorites Activity -->
+    <string name="no_favorites">No Favorites Yet</string>
+    <string name="no_favorites_hint">Search for images and save them to your favorites</string>
+    <string name="delete_favorite_title">Delete Favorite?</string>
+    <string name="delete_favorite_message">Are you sure you want to remove \"%s\" from your favorites?</string>
+    <string name="favorite_deleted">Favorite deleted</string>
+    <string name="error_deleting_favorite">Error deleting favorite</string>
+    <string name="undo">Undo</string>
+    <string name="no_favorites_to_clear">No favorites to clear</string>
+    <string name="clear_all_title">Clear All Favorites?</string>
+    <string name="clear_all_message">Are you sure you want to delete all your saved favorites? This action cannot be undone.</string>
+    <string name="clear">Clear</string>
+    <string name="all_favorites_cleared">All favorites cleared</string>
+
+    <!-- Detail Activity -->
+    <string name="error_no_image">No image data available</string>
+    <string name="explanation_label">Explanation</string>
+    <string name="copyright_format">© %s</string>
+    <string name="date_label">Date</string>
+    <string name="view_at">View at</string>
+    <string name="share_via">Share via</string>
+
+    <!-- Buttons -->
+    <string name="view_image">View Image</string>
+    <string name="view_hd">View HD</string>
+    <string name="watch_video">Watch Video</string>
+    <string name="add_to_favorites">Add to Favorites</string>
+    <string name="remove_from_favorites">Remove from Favorites</string>
+    <string name="added_to_favorites">Added to favorites!</string>
+    <string name="removed_from_favorites">Removed from favorites</string>
+    <string name="error_saving_favorite">Error saving to favorites</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+
+    <!-- About Activity -->
+    <string name="version_format">Version %s</string>
+    <string name="about_description_title">About This App</string>
+    <string name="about_description">This application allows you to explore NASA\'s Astronomy Picture of the Day (APOD). Each day, NASA features a different image or photograph of our fascinating universe, along with a brief explanation written by a professional astronomer.</string>
+    <string name="about_features_title">Features</string>
+    <string name="about_features">• Search images by date\n• View high-definition images\n• Save favorites for offline viewing\n• Share images with friends\n• Support for English and French</string>
+    <string name="about_developer_title">Developer</string>
+    <string name="about_developer">Developed by: Laiba Khan</string>
+    <string name="about_course">Course: CST2335 - Mobile Graphical Interface Programming</string>
+    <string name="visit_nasa_api">Visit NASA API</string>
+    <string name="visit_nasa_apod">Visit NASA APOD Website</string>
+
+    <!-- Menu Actions -->
+    <string name="action_search">Search</string>
+    <string name="action_favorites">Favorites</string>
+    <string name="action_help">Help</string>
+    <string name="action_share">Share</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_clear_all">Clear All</string>
+
+    <!-- Help Dialogs -->
+    <string name="help_title">Help</string>
+    <string name="help_main_message">Welcome to NASA Image of the Day!\n\n• Tap \"Search Images\" to find astronomy pictures by date\n• Tap \"My Favorites\" to view your saved images\n• Tap \"About\" to learn more about the app\n\nUse the navigation drawer (swipe from left) to access all features.</string>
+    <string name="help_search_message">How to Search:\n\n1. Tap the \"Pick Date\" button to select a date\n2. Choose any date from June 16, 1995 to today\n3. Tap \"Search\" to fetch the image\n4. Tap the heart icon to save to favorites\n5. Tap the image to see full details\n6. Use the buttons to view the image in your browser</string>
+    <string name="help_favorites_message">Managing Favorites:\n\n• Tap an item to view its details\n• Long-press an item to delete it\n• Use the menu to clear all favorites\n\nYour favorites are saved locally and will be available even when offline.</string>
+    <string name="help_detail_message">Image Details:\n\n• View the full explanation of the image\n• Tap \"View Image\" to open in browser\n• Tap \"View HD\" for high-definition version\n• Use the heart button to add/remove from favorites\n• Use the share button to share with friends</string>
+    <string name="help_about_message">This screen shows information about the app and provides links to NASA resources.\n\nThe app uses NASA\'s open API to fetch astronomy pictures.</string>
+
+    <!-- Content Descriptions -->
+    <string name="search_icon_desc">Search icon</string>
+    <string name="favorites_icon_desc">Favorites icon</string>
+    <string name="about_icon_desc">About icon</string>
+    <string name="arrow_icon_desc">Arrow icon</string>
+    <string name="nasa_image_desc">NASA astronomy image</string>
+    <string name="thumbnail_desc">Image thumbnail</string>
+    <string name="nasa_logo_desc">NASA logo</string>
+    <string name="app_icon_desc">App icon</string>
+    <string name="empty_favorites_icon_desc">Empty favorites icon</string>
+</resources>

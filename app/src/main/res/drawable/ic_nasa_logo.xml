@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <!-- Background circle -->
+    <path
+        android:fillColor="#0B3D91"
+        android:pathData="M50,50m-48,0a48,48 0,1 1,96 0a48,48 0,1 1,-96 0"/>
+    <!-- Inner circle (white) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M50,50m-40,0a40,40 0,1 1,80 0a40,40 0,1 1,-80 0"/>
+    <!-- NASA Blue inner -->
+    <path
+        android:fillColor="#0B3D91"
+        android:pathData="M50,50m-35,0a35,35 0,1 1,70 0a35,35 0,1 1,-70 0"/>
+    <!-- Red chevron -->
+    <path
+        android:fillColor="#FC3D21"
+        android:pathData="M30,65 L50,35 L70,65 L65,65 L50,42 L35,65 Z"/>
+    <!-- White orbit -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:strokeColor="#FFFFFF"
+        android:pathData="M25,50 Q50,20 75,50 Q50,80 25,50"/>
+    <!-- Star -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M70,30 L72,35 L77,35 L73,38 L75,43 L70,40 L65,43 L67,38 L63,35 L68,35 Z"/>
+</vector>

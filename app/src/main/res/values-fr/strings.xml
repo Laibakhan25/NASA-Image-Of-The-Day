@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App name -->
+    <string name="app_name">Image du Jour NASA</string>
+
+    <!-- Navigation Drawer -->
+    <string name="navigation_drawer_open">Ouvrir le menu de navigation</string>
+    <string name="navigation_drawer_close">Fermer le menu de navigation</string>
+    <string name="nav_search">Rechercher des images</string>
+    <string name="nav_favorites">Mes favoris</string>
+    <string name="nav_about">À propos</string>
+    <string name="nav_help">Aide</string>
+    <string name="nav_other">Autre</string>
+    <string name="nav_header_subtitle">Explorez le cosmos</string>
+
+    <!-- Activity Titles -->
+    <string name="title_image_search">Recherche d\'images</string>
+    <string name="title_favorites">Favoris</string>
+    <string name="title_image_detail">Détails de l\'image</string>
+    <string name="title_about">À propos</string>
+
+    <!-- Main Activity -->
+    <string name="welcome_title">Bienvenue!</string>
+    <string name="welcome_subtitle">Découvrez l\'image astronomique du jour de la NASA</string>
+    <string name="welcome_message">Bienvenue à l\'Image du Jour NASA! Commencez par rechercher une image.</string>
+    <string name="got_it">Compris</string>
+    <string name="card_search_title">Rechercher des images</string>
+    <string name="card_search_subtitle">Trouver des images par date</string>
+    <string name="card_favorites_title">Mes favoris</string>
+    <string name="card_about_title">À propos</string>
+    <string name="card_about_subtitle">Informations et liens de l\'application</string>
+    <string name="favorites_count_zero">Aucune image enregistrée</string>
+    <string name="favorites_count_format">%d images enregistrées</string>
+    <string name="last_search_format">Dernière recherche: %s</string>
+
+    <!-- Search Activity -->
+    <string name="select_date_label">Sélectionner une date</string>
+    <string name="date_hint">AAAA-MM-JJ</string>
+    <string name="pick_date">Choisir la date</string>
+    <string name="search_button">Rechercher</string>
+    <string name="result_label">Résultat</string>
+    <string name="tap_image_hint">Appuyez sur l\'image pour voir les détails complets</string>
+    <string name="error_no_date">Veuillez d\'abord sélectionner une date</string>
+    <string name="image_loaded">Image chargée avec succès!</string>
+    <string name="error_loading_image">Erreur de chargement de l\'image: %s</string>
+
+    <!-- Favorites Activity -->
+    <string name="no_favorites">Pas encore de favoris</string>
+    <string name="no_favorites_hint">Recherchez des images et enregistrez-les dans vos favoris</string>
+    <string name="delete_favorite_title">Supprimer le favori?</string>
+    <string name="delete_favorite_message">Êtes-vous sûr de vouloir supprimer \"%s\" de vos favoris?</string>
+    <string name="favorite_deleted">Favori supprimé</string>
+    <string name="error_deleting_favorite">Erreur lors de la suppression du favori</string>
+    <string name="undo">Annuler</string>
+    <string name="no_favorites_to_clear">Aucun favori à effacer</string>
+    <string name="clear_all_title">Effacer tous les favoris?</string>
+    <string name="clear_all_message">Êtes-vous sûr de vouloir supprimer tous vos favoris enregistrés? Cette action ne peut pas être annulée.</string>
+    <string name="clear">Effacer</string>
+    <string name="all_favorites_cleared">Tous les favoris ont été effacés</string>
+
+    <!-- Detail Activity -->
+    <string name="error_no_image">Aucune donnée d\'image disponible</string>
+    <string name="explanation_label">Explication</string>
+    <string name="copyright_format">© %s</string>
+    <string name="date_label">Date</string>
+    <string name="view_at">Voir sur</string>
+    <string name="share_via">Partager via</string>
+
+    <!-- Buttons -->
+    <string name="view_image">Voir l\'image</string>
+    <string name="view_hd">Voir en HD</string>
+    <string name="watch_video">Regarder la vidéo</string>
+    <string name="add_to_favorites">Ajouter aux favoris</string>
+    <string name="remove_from_favorites">Retirer des favoris</string>
+    <string name="added_to_favorites">Ajouté aux favoris!</string>
+    <string name="removed_from_favorites">Retiré des favoris</string>
+    <string name="error_saving_favorite">Erreur lors de l\'enregistrement dans les favoris</string>
+    <string name="delete">Supprimer</string>
+    <string name="cancel">Annuler</string>
+    <string name="ok">OK</string>
+
+    <!-- About Activity -->
+    <string name="version_format">Version %s</string>
+    <string name="about_description_title">À propos de cette application</string>
+    <string name="about_description">Cette application vous permet d\'explorer l\'image astronomique du jour (APOD) de la NASA. Chaque jour, la NASA présente une image ou une photographie différente de notre univers fascinant, accompagnée d\'une brève explication rédigée par un astronome professionnel.</string>
+    <string name="about_features_title">Fonctionnalités</string>
+    <string name="about_features">• Recherche d\'images par date\n• Affichage d\'images haute définition\n• Enregistrement des favoris pour consultation hors ligne\n• Partage d\'images avec des amis\n• Support pour l\'anglais et le français</string>
+    <string name="about_developer_title">Développeur</string>
+    <string name="about_developer">Développé par: Laiba Khan</string>
+    <string name="about_course">Cours: CST2335 - Programmation d\'interfaces graphiques mobiles</string>
+    <string name="visit_nasa_api">Visiter l\'API NASA</string>
+    <string name="visit_nasa_apod">Visiter le site APOD de la NASA</string>
+
+    <!-- Menu Actions -->
+    <string name="action_search">Rechercher</string>
+    <string name="action_favorites">Favoris</string>
+    <string name="action_help">Aide</string>
+    <string name="action_share">Partager</string>
+    <string name="action_delete">Supprimer</string>
+    <string name="action_clear_all">Tout effacer</string>
+
+    <!-- Help Dialogs -->
+    <string name="help_title">Aide</string>
+    <string name="help_main_message">Bienvenue à l\'Image du Jour NASA!\n\n• Appuyez sur \"Rechercher des images\" pour trouver des images astronomiques par date\n• Appuyez sur \"Mes favoris\" pour voir vos images enregistrées\n• Appuyez sur \"À propos\" pour en savoir plus sur l\'application\n\nUtilisez le menu de navigation (glissez depuis la gauche) pour accéder à toutes les fonctionnalités.</string>
+    <string name="help_search_message">Comment rechercher:\n\n1. Appuyez sur le bouton \"Choisir la date\" pour sélectionner une date\n2. Choisissez une date entre le 16 juin 1995 et aujourd\'hui\n3. Appuyez sur \"Rechercher\" pour récupérer l\'image\n4. Appuyez sur l\'icône du cœur pour enregistrer dans les favoris\n5. Appuyez sur l\'image pour voir les détails complets\n6. Utilisez les boutons pour voir l\'image dans votre navigateur</string>
+    <string name="help_favorites_message">Gestion des favoris:\n\n• Appuyez sur un élément pour voir ses détails\n• Appuyez longuement sur un élément pour le supprimer\n• Utilisez le menu pour effacer tous les favoris\n\nVos favoris sont enregistrés localement et seront disponibles même hors ligne.</string>
+    <string name="help_detail_message">Détails de l\'image:\n\n• Voir l\'explication complète de l\'image\n• Appuyez sur \"Voir l\'image\" pour ouvrir dans le navigateur\n• Appuyez sur \"Voir en HD\" pour la version haute définition\n• Utilisez le bouton cœur pour ajouter/retirer des favoris\n• Utilisez le bouton partager pour partager avec des amis</string>
+    <string name="help_about_message">Cet écran affiche des informations sur l\'application et fournit des liens vers les ressources de la NASA.\n\nL\'application utilise l\'API ouverte de la NASA pour récupérer les images astronomiques.</string>
+
+    <!-- Content Descriptions -->
+    <string name="search_icon_desc">Icône de recherche</string>
+    <string name="favorites_icon_desc">Icône des favoris</string>
+    <string name="about_icon_desc">Icône à propos</string>
+    <string name="arrow_icon_desc">Icône de flèche</string>
+    <string name="nasa_image_desc">Image astronomique de la NASA</string>
+    <string name="thumbnail_desc">Miniature de l\'image</string>
+    <string name="nasa_logo_desc">Logo de la NASA</string>
+    <string name="app_icon_desc">Icône de l\'application</string>
+    <string name="empty_favorites_icon_desc">Icône de favoris vides</string>
+</resources>

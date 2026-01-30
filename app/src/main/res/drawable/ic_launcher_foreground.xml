@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Background circle -->
+    <path
+        android:fillColor="#0B3D91"
+        android:pathData="M54,54m-40,0a40,40 0,1 1,80 0a40,40 0,1 1,-80 0"/>
+    <!-- Red chevron -->
+    <path
+        android:fillColor="#FC3D21"
+        android:pathData="M34,70 L54,40 L74,70 L69,70 L54,47 L39,70 Z"/>
+    <!-- White orbit -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,54 Q54,30 78,54 Q54,78 30,54"
+        android:strokeWidth="2"
+        android:strokeColor="#FFFFFF"/>
+    <!-- Star -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M72,38 L74,42 L78,42 L75,45 L76,49 L72,46 L68,49 L69,45 L66,42 L70,42 Z"/>
+</vector>
